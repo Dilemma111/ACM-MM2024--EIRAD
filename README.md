@@ -32,6 +32,12 @@ We need the newest version of FastChat fschat==0.2.23 and please make sure to in
 
 **[3]Also add the following code to the Otter model source code**
 
+In the modeling_llama.py,please add the following code in LlamaModel:
+
+```
+if inputs_embeds is not None:
+   input_ids=None
+```
 
 ## 🗂️ Framework
 
