@@ -6,6 +6,12 @@
 <p align="center">
   <img src="https://github.com/Dilemma111/ACM-MM2024--EIRAD/blob/master/pipeline.png" width="550px">
 </p>
+
+## 🗂️ EIRAD Dataset
+
+The dataset is in the link below：[https://github.com/Dilemma111/EIRAD-Dataset]
+
+
 ## 🗂️ Environments
 
 **Configure the environment required by llm-attack and Otter Model：**
