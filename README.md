@@ -36,7 +36,18 @@ We need the newest version of FastChat fschat==0.2.23 and please make sure to in
 `<pip install -e .>`.
 
 
-**[3]Also add the following code to the Otter model source code**
+**[3]Lavis environmenr configuration**
+
+Install from PyPI and for development, you may build from source
+
+ ```
+pip install salesforce-lavis 
+git clone https://github.com/salesforce/LAVIS.git
+cd LAVIS
+pip install -e .
+```
+
+**[4]Also add the following code to the Otter model source code**
 
 In the modeling_llama.py,please add the following code in LlamaModel:
 
